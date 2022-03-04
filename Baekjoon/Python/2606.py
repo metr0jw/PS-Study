@@ -1,6 +1,7 @@
 import sys
 from queue import Queue
 
+
 def bfs(graph):
     visit = [1]
     queue = Queue()

@@ -1,5 +1,6 @@
 import sys
 
+
 def dist(a, b, c):
     r = 1.0
     for i in range(c):

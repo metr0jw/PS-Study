@@ -1,4 +1,4 @@
-while True :
+while True:
     string = input().rstrip('\\n')
     stack = []
 

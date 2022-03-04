@@ -1,5 +1,6 @@
 import sys
 
+
 loc_list = []
 for i in range(int(sys.stdin.readline())):
     loc_list.append(list(map(int, sys.stdin.readline().split())))

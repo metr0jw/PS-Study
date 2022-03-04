@@ -1,5 +1,6 @@
 import sys
 
+
 def eratos(minimum, maximum):
     global no_sqr
 

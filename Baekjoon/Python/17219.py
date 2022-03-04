@@ -1,5 +1,6 @@
 import sys
 
+
 pwd = {}
 find = []
 n, m = map(int, sys.stdin.readline().split())

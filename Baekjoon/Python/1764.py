@@ -1,5 +1,6 @@
 import sys
 
+
 no_listen = set()
 no_watch = set()
 n, m = map(int, sys.stdin.readline().split())

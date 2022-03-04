@@ -1,5 +1,6 @@
 import sys
 
+
 def push():
     cmd.append('+')
     if len(num_to_use) > 0:
