@@ -1,12 +1,7 @@
-N = int(input())
+L = int(input())
+string = input()
+res = 0
 
-pack = 0
-while N >= 0:
-    if N % 5 == 0:
-        pack += (N // 5)
-        print(pack)
-        break
-    N -= 3
-    pack += 1
-else:
-    print(-1)
+for i in range(L):
+    res += (ord(string[i]) - 96) * (31 ** i)
+print(res % 1234567891)
